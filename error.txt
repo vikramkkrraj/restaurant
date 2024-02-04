@@ -1,0 +1,11 @@
+pucycode error deprecated
+solution : 
+First:
+npm install punycode --save
+Second:
+Then in node_modules go to the directory tr46 > index.js
+
+// Replace this:
+const punycode = require('punycode');
+// With this:
+const punycode = require('punycode/');
